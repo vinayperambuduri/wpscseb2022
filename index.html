@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>WPS HTML DEMO</title>
+        <meta name="description" content="Login form"></meta>
+        <meta name="authors" content="Vinay"></meta>
+        <meta name="keywords" content="username, password, form"></meta>
+        <meta name="viewport" width="device-width" initial-scale="1" />
+        <link rel="stylesheet" href="style.css" />
+        <style>
+            /*Rules-Internal style*/
+           /* p {color:blue}*/
+
+        </style>
+    </head>
+    <body>
+        <!--Form feilds-->
+        <p>This is a form paragraph</p>
+        <p style="color:red"> This is second paragraph</p>
+
+        <form method="get" action="tables.html">
+            Username <input type="text" id="username"/> <br>
+            Password <input type="password" id="password" /><br>
+
+          Gender :<br>  
+          <input type="radio" name="gender" value="M"/> Male
+          <input type="radio" name="gender" value="F"/> Female
+          <br>
+          Courses :<br>  
+          <input type="checkbox" name="course" value="C"/> C
+          <input type="checkbox" name="course" value="C++"/> C++
+          <input type="checkbox" name="course" value="Java" /> Java
+          <br>
+         DOB <input type="date" name="dob" />
+<br>
+         <input type="submit" id="submit" />
+         <input type="button" value="plain button" style="background-color:blue"/>
+
+        <!--Dropdown-->
+        <!-- <select name="country" mutiple>
+            <option value="India">India</option>
+            <option value="Japan">Japan</option>
+            <option value="US">US</option>
+        </select> <br>
+        <input type="number" name="age" />
+        <input type="email" name="emailid" /><br>
+        <input type="range" start="1" end="100" name="items" /><br>
+
+       
+<br> -->
+        <textarea name="profile" rows="5" cols="40">
+
+        </textarea>
+<input type="file" name="cv" /><br>
+<progress value="100" min="1" max="150" name="progress" />
+           
+        </form>
+    </body>
+</html>
